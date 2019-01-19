@@ -16,8 +16,8 @@ collections:
             name: "year"
             widget: "string"
 
-  - label: "Portfolio"
-    name: "portfolio"
+  - name: "portfolio"
+    label: "Portfolio"
     folder: "_portfolio"
     create: true
     slug: "{{slug}}"
