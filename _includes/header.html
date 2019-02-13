@@ -11,6 +11,12 @@
     <input type="checkbox" id="menu-toggle">
     
     <nav>
+      
+      {% for item in site.data.menu.docs %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
       <a href="mailto:{{site.email}}" target="_blank">contato@lucasfads.com.br</a>
+        
+      
     </nav>
 </header>

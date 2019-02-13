@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div id="bio" class="container">
+  <div>
+    <h1>{{ page.who }}</h1>
+    <span>{{ page.subtitle }} | {{ page.location }}</span>
+  </div>
+  <div id="bio-desc">
+    {{ content }}
+  </div>
+</div>
+
+<div id="curriculum" class="container">
+
+  <div class="cv-section">
+    <h2>Formação</h2>
+
+    {% assign formacao = site.resume | where:'categories', "Formação" %}
+
+    <ul>
+      {% for formacao in formacao %}
+        <li>
+          <h3>{{ formacao.title }}</h3>
+          <span>{{ formacao.where }} | {{ formacao.when }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="cv-section">
+    <h2>Experiência</h2>
+    
+    {% assign experiencia = site.resume | where:'categories', "Experiência" %}
+
+    <ul>
+      {% for experiencia in experiencia %}
+        <li>
+          <h3>{{ experiencia.title }}</h3>
+          <span>{{ experiencia.where }} | {{ experiencia.when }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="cv-section">
+    <h2>Palestras</h2>
+
+    {% assign palestras = site.resume | where:'categories', "Palestra" %}
+
+    <ul>
+      {% for palestra in palestras %}
+        <li>
+          <h3>{{ palestra.title }}</h3>
+          <span>{{ palestra.where }} | {{ palestra.when }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>

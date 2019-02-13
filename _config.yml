@@ -31,6 +31,8 @@ plugins:
 collections:
   portfolio:
     output: true
+  resume:
+    output: false
 
 defaults:
   - scope:
