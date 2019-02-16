@@ -1,10 +1,10 @@
 ---
 layout: resume
-title: About
-permalink: /about/
+title: Sobre
+permalink: /sobre/
 who: "Lucas Fernandes"
 subtitle: "Designer corporativo"
 location: "Rio de Janeiro, Brasil"
 ---
 
-Desde 2010 eu ajudo negócios a criar ou melhorar sua estratégia de comunicação visual, dentro ou fora do Brasil, sem precisar ter muita dor de cabeça.
+Desde 2010 eu ajudo negócios, dentro ou fora do Brasil, a se comunicarem melhor através da criação ou melhoria de sua estratégia de design, sem precisar ter muita dor de cabeça.
