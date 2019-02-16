@@ -9,4 +9,4 @@ layout: home
 
 # Designer corporativo
 
-Minha paixão é ajudar negócios a criar ou melhorar sua estratégia de comunicação visual por meio de uma boa identidade de marca e um site sob medida, melhorando sua presença e visibilidade no internet.
+Minha paixão é ajudar negócios a criar ou melhorar sua estratégia de comunicação visual por meio de uma boa identidade de marca e um site sob medida, melhorando sua presença e visibilidade na internet.
