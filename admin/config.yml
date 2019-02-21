@@ -29,7 +29,7 @@ collections:
         name: "categories"
         widget: "select"
         multiple: true
-        options: ["Design de logotipo", "Web design", "Desenvolvimento"]
+        options: ["Design de logotipo", "Web design", "Desenvolvimento web"]
       - label: "Thumbnail image"
         name: "thumb"
         hint: "400*300px"

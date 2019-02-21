@@ -19,7 +19,8 @@ NOPE
   <div id="portfolio">
     <div id="portfolio-slider">
 
-      {% for portfolio in site.portfolio %}
+      {% assign portfolio-sorted = (site.portfolio | sort: 'date') | reverse %}
+      {% for portfolio in portfolio-sorted %}
 
         <figure class="portfolio-card">
           <a href="{{ portfolio.url | prepend: site.baseurl }}">

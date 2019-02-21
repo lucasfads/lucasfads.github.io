@@ -1,7 +1,7 @@
 ---
 title:  "AudioSaga"
-date:   2019-01-03 12:00:00 -0300
-categories: [Web design, Desenvolvimento]
+date:   2017-11-30
+categories: [Web design, Desenvolvimento web]
 thumb: "/assets/images/audiosaga-400.png"
 featured: "/assets/images/audiosaga-800.png"
 color: "#c1a3e0"

@@ -1,6 +1,6 @@
 ---
 title:  "K Innovative Diffuser"
-date:   2019-01-03 12:00:00 -0300
+date:   2016-07-26
 categories: [Design de logo]
 thumb: "/assets/images/k-400.png"
 featured: "/assets/images/k-800.png"

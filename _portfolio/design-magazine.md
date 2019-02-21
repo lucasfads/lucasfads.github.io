@@ -1,7 +1,7 @@
 ---
 title:  "Design Magazine"
-date:   2019-01-03 12:00:00 -0300
-categories: [Web design, Desenvolvimento]
+date:   2017-10-25
+categories: [Web design, Desenvolvimento web]
 thumb: "/assets/images/designmagazine-400.png"
 featured: "/assets/images/designmagazine-800.png"
 color: "#e3dabf"
