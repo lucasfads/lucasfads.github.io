@@ -15,21 +15,6 @@ layout: default
 <div id="curriculum" class="container">
 
   <div class="cv-section">
-    <h2>Formação</h2>
-
-    {% assign formacao = site.resume | where:'categories', "Formação" %}
-
-    <ul>
-      {% for formacao in formacao %}
-        <li>
-          <h3>{{ formacao.title }}</h3>
-          <span>{{ formacao.where }} | {{ formacao.when }}</span>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="cv-section">
     <h2>Experiência</h2>
     
     {% assign experiencia = site.resume | where:'categories', "Experiência" %}
@@ -39,6 +24,21 @@ layout: default
         <li>
           <h3>{{ experiencia.title }}</h3>
           <span>{{ experiencia.where }} | {{ experiencia.when }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="cv-section">
+    <h2>Formação</h2>
+
+    {% assign formacao = site.resume | where:'categories', "Formação" %}
+
+    <ul>
+      {% for formacao in formacao %}
+        <li>
+          <h3>{{ formacao.title }}</h3>
+          <span>{{ formacao.where }} | {{ formacao.when }}</span>
         </li>
       {% endfor %}
     </ul>
